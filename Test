@@ -1,3 +1,8 @@
+--_G.DevMode_ = false
+--[[repeat 
+	wait() 
+until game:IsLoaded() ]]
+
 spawn(function()
     game_pid = game.PlaceId
     asiufdl = 0
